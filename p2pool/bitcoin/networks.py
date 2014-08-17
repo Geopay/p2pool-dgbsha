@@ -26,6 +26,7 @@ nets = dict(
 	     not (yield bitcoind.rpc_getinfo())['testnet']
         )),
 	SUBSIDY_FUNC=lambda height: __import__('digibyte_subsidy').GetBlockBaseValue(height),
+	BLOCKHASH_FUNC=data.hash256,
 	POW_FUNC=data.hash256,
 	BLOCK_PERIOD=60, # s
 	SYMBOL='DGB',
