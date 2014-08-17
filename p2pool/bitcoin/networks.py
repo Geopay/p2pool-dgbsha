@@ -34,7 +34,7 @@ nets = dict(
 	BLOCK_EXPLORER_URL_PREFIX='http://altexplorer.net/block/',
 	ADDRESS_EXPLORER_URL_PREFIX='http://altexplorer.net/address/',
 	TX_EXPLORER_URL_PREFIX='http://altexplorer.net/tx/',
-	SANE_TARGET_RANGE=(2**256//1000000000 - 1, 2**256//1000 - 1),
+	SANE_TARGET_RANGE=(2**256//2**32//1000 - 1, 2**256//2**20 - 1),
 	DUMB_SCRYPT_DIFF=1,
 	DUST_THRESHOLD=0.0001e8,
     ),
@@ -47,6 +47,7 @@ nets = dict(
 	    'digibyteaddress' in (yield bitcoind.rpc_help())
         )),
 	SUBSIDY_FUNC=lambda height: __import__('digibyte_subsidy').GetBlockBaseValue(height),
+	BLOCKHASH_FUNC=data.hash256,
 	POW_FUNC=data.hash256,
 	BLOCK_PERIOD=30, # s
 	SYMBOL='DGB',
