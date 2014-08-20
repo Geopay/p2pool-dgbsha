@@ -97,7 +97,7 @@ When you install myriadcoind, don't forget to write in your myriadcoin.conf:
 Donations:
 -------------------------
 
-Donations are welcome to have made this working with SHA256:
+Donations are welcome to have made this working with SHA256 for Digibytw:
 
      DKqUZR8ajzo1vkXYWWx476wRyZ4La76WBy
 
