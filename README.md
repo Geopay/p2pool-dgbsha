@@ -99,7 +99,7 @@ Donations:
 
 Donations are welcome to have made this working with SHA256:
 
-     MSi1verRGjiSm8sJXDtkLgCuos4FuP225N
+     DKqUZR8ajzo1vkXYWWx476wRyZ4La76WBy
 
 Sponsors:
 -------------------------
