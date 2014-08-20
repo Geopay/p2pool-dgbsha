@@ -90,14 +90,14 @@ Forward port 5567 to the host running P2Pool.
 
 Notes for Digibyte:
 -------------------------
-When you install myriadcoind, don't forget to write in your myriadcoin.conf:
+When you install digibyted, don't forget to write in your digibyte.conf:
 
-    algo=sha256
+    algo=sha256d
 
 Donations:
 -------------------------
 
-Donations are welcome to have made this working with SHA256 for Digibytw:
+Digibyte Donations are welcome for making this work with SHA256:
 
      DKqUZR8ajzo1vkXYWWx476wRyZ4La76WBy
 
